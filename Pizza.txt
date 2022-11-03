@@ -1,0 +1,52 @@
+- Finisco di lavorare;
+
+- Ho fame;
+
+- Ho voglia di pizza;
+
+- Prendo il cellulare;
+
+- Apro l'applicazione Deliveroo;
+
+-SE Deliveroo NON mi convince{
+    - Apro Just Eat;
+}
+
+-FINCHè non trovo una pizzeria dal catalogo convincente{
+    - Scelgo una pizzeria;
+}
+
+- SE ho voglia della solita pizza{
+    - SE c'è la prosciutto e funghi nel listino{
+        - Ordino una prosciutto e funghi;
+    }
+    - ALTRIMENTI {
+        - Ordino una pizza custom prosciutto e funghi;
+    }
+}
+- ALTRIMENTI{
+    -FINCHè non trovo una pizza che mi convince{
+    - Sfoglio il catalogo;
+    }
+}
+
+- Arriva la pizza;
+
+- SE NON ho il coupon gratuito{
+    - Pago la pizza;
+}
+- ALTRIMENTI{
+    - è gratis;
+}
+
+- SE NON è già talgiata{
+    - Taglio la pizza;
+}
+
+- FINCHè ho fame{
+    - Mangio la pizza;
+}
+
+- SE avanza{
+    - Metto in frigo la pizza avanzata;
+}
